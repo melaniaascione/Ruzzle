@@ -1,10 +1,11 @@
 package it.polito.tdp.ruzzle.model;
 
 /**
- * Classe che indentifica la posizione di una casella del gioco
- * 
+ * Classe che indentifica la POSIZIONE di una CASELLA del gioco
  */
 public class Pos {
+	
+	//definisco le due coordinate (riga e colonna) per trovare una casella
 	private int row;
 	private int col;
 

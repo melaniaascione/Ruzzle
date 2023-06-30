@@ -8,12 +8,15 @@ import java.util.Map;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
+//QUESTA CLASSE CREA UNA BOARD DI GIOCO
+
 /**
  * Memorizza le lettere presenti nella scacchiera Ruzzle.
- * @author Fulvio
+ * @author Fulvio <3
  *
  */
 public class Board {
+	
 	private List<Pos> positions;
 	private Map<Pos, StringProperty> cells;
 
@@ -45,7 +48,6 @@ public class Board {
 	
 	/**
 	 * Fornisce la {@link StringProperty} corrispondente alla {@link Pos} specificata. <p>
-	 * 
 	 * Può essere usata per sapere che lettera è presente
 	 * (es. {@code getCellValueProperty(p).get()}) oppure per fare un binding della proprietà stessa sulla mappa visuale.
 	 * @param p
